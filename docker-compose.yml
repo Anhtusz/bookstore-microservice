@@ -1,0 +1,271 @@
+services:
+  # ==========================================
+  # Databases
+  # ==========================================
+  db-api-gateway:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: api_gateway_db
+    ports:
+      - "5432:5432"
+
+  db-book-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: book_service_db
+    ports:
+      - "5433:5432"
+
+  db-cart-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: cart_service_db
+    ports:
+      - "5434:5432"
+
+  db-customer-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: customer_service_db
+    ports:
+      - "5435:5432"
+
+  db-staff-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: staff_service_db
+    ports:
+      - "5436:5432"
+
+  db-manager-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: manager_service_db
+    ports:
+      - "5437:5432"
+
+  db-order-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: order_service_db
+    ports:
+      - "5438:5432"
+
+  db-pay-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: pay_service_db
+    ports:
+      - "5439:5432"
+
+  db-ship-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ship_service_db
+    ports:
+      - "5440:5432"
+
+  db-comment-rate-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: comment_rate_service_db
+    ports:
+      - "5441:5432"
+
+  db-catalog-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: catalog_service_db
+    ports:
+      - "5442:5432"
+
+  db-recommender-ai-service:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: recommender_ai_service_db
+    ports:
+      - "5443:5432"
+
+  # ==========================================
+  # Django Services
+  # ==========================================
+  api-gateway:
+    build:
+      context: ./api-gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db-api-gateway
+    volumes:
+      - ./api-gateway:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-api-gateway:5432/api_gateway_db
+
+  book-service:
+    build:
+      context: ./book-service
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db-book-service
+    volumes:
+      - ./book-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-book-service:5432/book_service_db
+
+  cart-service:
+    build:
+      context: ./cart-service
+    ports:
+      - "8002:8000"
+    depends_on:
+      - db-cart-service
+    volumes:
+      - ./cart-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-cart-service:5432/cart_service_db
+      - BOOK_SERVICE_URL=http://book-service:8000/
+
+  customer-service:
+    build:
+      context: ./customer-service
+    ports:
+      - "8003:8000"
+    depends_on:
+      - db-customer-service
+    volumes:
+      - ./customer-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-customer-service:5432/customer_service_db
+      - CART_SERVICE_URL=http://cart-service:8000/
+
+  staff-service:
+    build:
+      context: ./staff-service
+    ports:
+      - "8004:8000"
+    depends_on:
+      - db-staff-service
+    volumes:
+      - ./staff-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-staff-service:5432/staff_service_db
+      - BOOK_SERVICE_URL=http://book-service:8000/
+
+  manager-service:
+    build:
+      context: ./manager-service
+    ports:
+      - "8005:8000"
+    depends_on:
+      - db-manager-service
+    volumes:
+      - ./manager-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-manager-service:5432/manager_service_db
+
+  order-service:
+    build:
+      context: ./order-service
+    ports:
+      - "8006:8000"
+    depends_on:
+      - db-order-service
+    volumes:
+      - ./order-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-order-service:5432/order_service_db
+      - CART_SERVICE_URL=http://cart-service:8000/
+      - PAY_SERVICE_URL=http://pay-service:8000/
+      - SHIP_SERVICE_URL=http://ship-service:8000/
+      - BOOK_SERVICE_URL=http://book-service:8000/
+
+  pay-service:
+    build:
+      context: ./pay-service
+    ports:
+      - "8007:8000"
+    depends_on:
+      - db-pay-service
+    volumes:
+      - ./pay-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-pay-service:5432/pay_service_db
+
+  ship-service:
+    build:
+      context: ./ship-service
+    ports:
+      - "8008:8000"
+    depends_on:
+      - db-ship-service
+    volumes:
+      - ./ship-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-ship-service:5432/ship_service_db
+
+  comment-rate-service:
+    build:
+      context: ./comment-rate-service
+    ports:
+      - "8009:8000"
+    depends_on:
+      - db-comment-rate-service
+    volumes:
+      - ./comment-rate-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-comment-rate-service:5432/comment_rate_service_db
+
+  catalog-service:
+    build:
+      context: ./catalog-service
+    ports:
+      - "8010:8000"
+    depends_on:
+      - db-catalog-service
+    volumes:
+      - ./catalog-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-catalog-service:5432/catalog_service_db
+
+  recommender-ai-service:
+    build:
+      context: ./recommender-ai-service
+    ports:
+      - "8011:8000"
+    depends_on:
+      - db-recommender-ai-service
+    volumes:
+      - ./recommender-ai-service:/app
+    environment:
+      - DATABASE_URL=postgres://user:password@db-recommender-ai-service:5432/recommender_ai_service_db
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
