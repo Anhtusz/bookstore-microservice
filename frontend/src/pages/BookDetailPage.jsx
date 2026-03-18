@@ -15,17 +15,47 @@ export default function BookDetailPage() {
     const [newRating, setNewRating] = useState(5);
     const [recommendedBooks, setRecommendedBooks] = useState([]);
 
+    // Track this book as recently viewed in localStorage
+    const trackView = (bookId) => {
+        try {
+            const key = 'mb_recently_viewed';
+            const prev = JSON.parse(localStorage.getItem(key) || '[]');
+            const updated = [bookId, ...prev.filter(id => id !== bookId)].slice(0, 20);
+            localStorage.setItem(key, JSON.stringify(updated));
+        } catch {}
+    };
+
     const loadData = async () => {
         setLoading(true);
         try {
-            const [bookRes, reviewsRes, recRes] = await Promise.all([
+            const [bookRes, reviewsRes] = await Promise.all([
                 axios.get(`${API_BASE}/book/books/${id}/`),
-                axios.get(`${API_BASE}/comment-rate/reviews/?book_id=${id}`),
-                axios.get(`${API_BASE}/recommender-ai/recommendations/suggest/`).catch(() => ({ data: [] }))
+                axios.get(`${API_BASE}/comment-rate/reviews/?book_id=${id}`)
             ]);
             setBook(bookRes.data);
             setReviews(reviewsRes.data);
-            setRecommendedBooks(recRes.data.filter(r => r.id !== parseInt(id)));
+
+            // Track this page view
+            trackView(parseInt(id));
+
+            // Category-based recommendations (books in same category, excluding this one)
+            let recData = [];
+            const catRes = await axios.get(
+                `${API_BASE}/recommender-ai/recommendations/by_category/?book_id=${id}`
+            ).catch(() => ({ data: [] }));
+            recData = Array.isArray(catRes.data) ? catRes.data : [];
+
+            // Fallback to random if category-based gives too few
+            if (recData.length < 2) {
+                const fallRes = await axios.get(
+                    `${API_BASE}/recommender-ai/recommendations/suggest/`
+                ).catch(() => ({ data: [] }));
+                recData = Array.isArray(fallRes.data)
+                    ? fallRes.data.filter(r => r.id !== parseInt(id))
+                    : [];
+            }
+
+            setRecommendedBooks(recData.filter(r => r.id !== parseInt(id)).slice(0, 4));
         } catch {
             showToast("Failed to load book details", "error");
         } finally {

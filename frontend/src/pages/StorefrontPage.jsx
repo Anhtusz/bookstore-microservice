@@ -11,29 +11,61 @@ export default function StorefrontPage({ fetchBooks }) {
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
     const [recommendedBooks, setRecommendedBooks] = useState([]);
+    const [recommendLabel, setRecommendLabel] = useState('Recommended For You');
     const [catalogMap, setCatalogMap] = useState({}); // book_id -> category_id
+
+    // Push a book_id into the recently-viewed list in localStorage (max 20)
+    const trackView = (bookId) => {
+        try {
+            const key = 'mb_recently_viewed';
+            const prev = JSON.parse(localStorage.getItem(key) || '[]');
+            const updated = [bookId, ...prev.filter(id => id !== bookId)].slice(0, 20);
+            localStorage.setItem(key, JSON.stringify(updated));
+        } catch {}
+    };
 
     const loadBooks = async () => {
         setLoading(true);
         try {
-            const [booksRes, recRes, catalogRes] = await Promise.all([
+            // Parallel: books + catalog
+            const [booksRes, catalogRes] = await Promise.all([
                 axios.get(`${API_BASE}/book/books/`),
-                axios.get(`${API_BASE}/recommender-ai/recommendations/suggest/`).catch(() => ({ data: [] })),
                 axios.get(`${API_BASE}/catalog/items/`).catch(() => ({ data: [] }))
             ]);
             setBooks(booksRes.data);
-            setRecommendedBooks(recRes.data);
+            if (fetchBooks) fetchBooks(booksRes.data);
 
-            // Build a map: book_id -> category_id for fast filter/display
+            // Build catalog map
             const map = {};
             if (Array.isArray(catalogRes.data)) {
-                catalogRes.data.forEach(item => {
-                    map[item.book_id] = item.category; // category is the FK id
-                });
+                catalogRes.data.forEach(item => { map[item.book_id] = item.category; });
             }
             setCatalogMap(map);
 
-            if (fetchBooks) fetchBooks(booksRes.data);
+            // Smart recommendations: session-based first, fallback to popular
+            const recentlyViewed = JSON.parse(localStorage.getItem('mb_recently_viewed') || '[]');
+            let recData = [];
+
+            if (recentlyViewed.length > 0) {
+                // Session-based: based on what user has viewed
+                const res = await axios.post(
+                    `${API_BASE}/recommender-ai/recommendations/for_session/`,
+                    { viewed_book_ids: recentlyViewed }
+                ).catch(() => ({ data: [] }));
+                recData = res.data;
+                setRecommendLabel('Based on Your History');
+            }
+
+            if (recData.length < 3) {
+                // Fallback: most popular (most ordered)
+                const res = await axios.get(
+                    `${API_BASE}/recommender-ai/recommendations/popular/?limit=8`
+                ).catch(() => ({ data: [] }));
+                recData = res.data;
+                setRecommendLabel('Trending Now 🔥');
+            }
+
+            setRecommendedBooks(recData);
         } catch {
             showToast("Failed to load catalog", "error");
         } finally {
@@ -140,9 +172,9 @@ export default function StorefrontPage({ fetchBooks }) {
             {!loading && recommendedBooks.length > 0 && !searchQuery && !selectedCategory && (
                 <div className="mb-16 animate-[fadeIn_0.5s_ease-out]">
                     <div className="flex items-center gap-3 mb-6">
-                        <span className="text-3xl">✨</span>
+                        <span className="text-3xl">{recommendLabel.includes('History') ? '🕐' : '🔥'}</span>
                         <h2 className="text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                            Recommended For You
+                            {recommendLabel}
                         </h2>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
