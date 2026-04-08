@@ -175,3 +175,38 @@ class RecommendationViewSet(viewsets.ModelViewSet):
 
         except Exception as e:
             return Response([], status=status.HTTP_200_OK)
+
+    # ── 5. AI Behavior Analysis (LSTM + Attention) ───────────────────────────
+    @action(detail=False, methods=['post'])
+    def behavior_analysis(self, request):
+        """
+        POST body: { "events": [{click: ..., view_duration: ...}] }
+        Returns the classified user persona.
+        """
+        events = request.data.get('events', [])
+        
+        try:
+            # Inline import to avoid blocking Django startup overhead
+            from .ml.behavior_model import predict_persona
+            persona = predict_persona(events)
+            return Response({"persona": persona})
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    # ── 6. Intelligent RAG Chatbot ───────────────────────────────────────────
+    @action(detail=False, methods=['post'])
+    def chat(self, request):
+        """
+        POST body: { "query": "..." }
+        Returns RAG generated answer via Hybrid Retrieval -> CrossEncoder -> Gemini.
+        """
+        query = request.data.get('query')
+        if not query:
+            return Response({"error": "No query provided"}, status=status.HTTP_400_BAD_REQUEST)
+            
+        try:
+            from .ml.rag_pipeline import rag_pipeline
+            answer = rag_pipeline.generate_answer(query)
+            return Response({"answer": answer})
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

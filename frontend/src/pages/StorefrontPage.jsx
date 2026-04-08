@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { AppContext } from '../context/AppContext.jsx';
+import Chatbot from '../components/Chatbot.jsx';
 
 export default function StorefrontPage({ fetchBooks }) {
     const { user, fetchCart, API_BASE, showToast, cart, categories } = useContext(AppContext);
@@ -309,6 +310,7 @@ export default function StorefrontPage({ fetchBooks }) {
                     to { opacity: 1; transform: translateY(0); }
                 }
             `}} />
+            <Chatbot />
         </div>
     );
 }
