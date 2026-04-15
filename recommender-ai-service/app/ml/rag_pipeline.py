@@ -19,7 +19,7 @@ class AdvancedRAG:
         # 4. LLM GenAI setup (ensure GEMINI_API_KEY is available)
         api_key = os.environ.get("GEMINI_API_KEY", "dummy_key")
         genai.configure(api_key=api_key)
-        self.gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+        self.gemini_model = genai.GenerativeModel('gemini-2.5-flash')
         
         self.corpus_docs = []
         self.bm25 = None

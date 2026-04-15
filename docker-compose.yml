@@ -263,6 +263,7 @@ services:
       - ./recommender-ai-service:/app
     environment:
       - DATABASE_URL=postgres://user:password@db-recommender-ai-service:5432/recommender_ai_service_db
+      - GEMINI_API_KEY=AIzaSyCHue1lkluZXqdvPSAQGG9T55QqGgEctug
 
   frontend:
     build:
