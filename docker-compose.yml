@@ -110,6 +110,14 @@ services:
     ports:
       - "5443:5432"
 
+  db-neo4j:
+    image: neo4j:5-community
+    environment:
+      NEO4J_AUTH: neo4j/password
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+
   # ==========================================
   # Django Services
   # ==========================================
@@ -259,11 +267,15 @@ services:
       - "8011:8000"
     depends_on:
       - db-recommender-ai-service
+      - db-neo4j
     volumes:
       - ./recommender-ai-service:/app
     environment:
       - DATABASE_URL=postgres://user:password@db-recommender-ai-service:5432/recommender_ai_service_db
-      - GEMINI_API_KEY=AIzaSyCHue1lkluZXqdvPSAQGG9T55QqGgEctug
+      - GEMINI_API_KEY=AIzaSyCaZuBVkbsLZAzg1Yogvus0HYumSHtQxM0
+      - NEO4J_URI=bolt://db-neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=password
 
   frontend:
     build:
