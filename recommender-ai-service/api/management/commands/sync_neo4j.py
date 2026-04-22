@@ -46,6 +46,16 @@ class Command(BaseCommand):
         self.stdout.write('Clearing Neo4j database...')
         client.clear_database()
 
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+        data_dir = os.path.join(base_dir, 'data')
+        models_dir = os.path.join(base_dir, 'models')
+        client.build_graph(
+            csv_path=os.path.join(data_dir, 'data_user500.csv'),
+            books_path=os.path.join(data_dir, 'books.json'),
+            users_path=os.path.join(data_dir, 'users.json'),
+            model_path=os.path.join(models_dir, 'model_best.pt'),
+        )
+
         events = BehaviorEvent.objects.all()
         total = events.count()
         self.stdout.write(f'Rebuilding graph from {total} events...')
@@ -73,52 +83,13 @@ class Command(BaseCommand):
 
     def _push_events_to_neo4j(self, client, events_qs):
         """Push events into Neo4j by creating/merging User/Book and required relationships."""
-        client.ensure_constraints()
-        with client.driver.session() as session:
-            # Group events by action type for efficient UNWIND queries
-            action_types = events_qs.values_list('action', flat=True).distinct()
-
-            for action in action_types:
-                action_events = events_qs.filter(action=action)
-                # Build batch payload once; REVIEWED needs a Review node.
-                if action == 'review':
-                    batch = [
-                        {
-                            'user_id': e.user_id,
-                            'product_id': e.product_id,
-                            'review_id': f"db:{e.id}",
-                            'timestamp': e.timestamp.isoformat(),
-                        }
-                        for e in action_events
-                    ]
-                else:
-                    batch = [{'user_id': e.user_id, 'product_id': e.product_id} for e in action_events]
-
-                if not batch:
-                    continue
-
-                rel_type = client._map_action_to_rel(action)
-                self.stdout.write(f'  Creating {rel_type} relationships ({len(batch)} events)...')
-
-                # Ensure User and Book nodes exist, then merge relationships
-                if rel_type == "REVIEWED":
-                    query = """
-                    UNWIND $batch AS record
-                    MERGE (u:User {id: record.user_id})
-                    MERGE (b:Book {id: record.product_id})
-                    MERGE (r:Review {id: record.review_id})
-                    SET r.created_at = record.timestamp
-                    MERGE (u)-[:REVIEWED]->(r)
-                    MERGE (r)-[:ABOUT]->(b)
-                    """
-                    session.run(query, batch=batch)
-                else:
-                    query = f"""
-                    UNWIND $batch AS record
-                    MERGE (u:User {{id: record.user_id}})
-                    MERGE (b:Book {{id: record.product_id}})
-                    MERGE (u)-[r:{rel_type}]->(b)
-                    ON CREATE SET r.count = 1
-                    ON MATCH SET r.count = r.count + 1
-                    """
-                    session.run(query, batch=batch)
+        rows = [
+            {
+                'user_id': e.user_id,
+                'product_id': e.product_id,
+                'action': e.action,
+                'timestamp': e.timestamp.isoformat(),
+            }
+            for e in events_qs
+        ]
+        client.sync_behavior_events(rows)

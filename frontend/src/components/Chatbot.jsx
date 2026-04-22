@@ -3,7 +3,7 @@ import axios from 'axios';
 import { AppContext } from '../context/AppContext.jsx';
 
 export default function Chatbot() {
-    const { API_BASE } = useContext(AppContext);
+    const { API_BASE, user } = useContext(AppContext);
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
         { role: 'bot', text: 'Hi! I am your AI assistant. Ask me anything about our books!' }
@@ -32,9 +32,13 @@ export default function Chatbot() {
 
         try {
             const res = await axios.post(`${API_BASE}/recommender-ai/recommendations/chat/`, {
-                query: userQuery
+                query: userQuery,
+                user_id: user?.id ?? null,
             });
-            setMessages(prev => [...prev, { role: 'bot', text: res.data.answer || "I'm not sure how to respond to that." }]);
+            const sourceLine = Array.isArray(res.data.sources) && res.data.sources.length > 0
+                ? `\n\nSources: ${res.data.sources.map(source => source.title || `${source.type}#${source.id || ''}`).join(', ')}`
+                : '';
+            setMessages(prev => [...prev, { role: 'bot', text: `${res.data.answer || "I'm not sure how to respond to that."}${sourceLine}` }]);
         } catch (error) {
             setMessages(prev => [...prev, { role: 'bot', text: 'Sorry, I am having trouble connecting to my central brain right now.' }]);
         } finally {

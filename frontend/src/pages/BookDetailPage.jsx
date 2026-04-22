@@ -5,7 +5,7 @@ import { AppContext } from '../context/AppContext.jsx';
 
 export default function BookDetailPage() {
     const { id } = useParams();
-    const { user, API_BASE, showToast, cart, fetchCart, trackEvent } = useContext(AppContext);
+    const { user, API_BASE, showToast, cart, fetchCart, trackEvent, categories } = useContext(AppContext);
     const navigate = useNavigate();
     
     const [book, setBook] = useState(null);
