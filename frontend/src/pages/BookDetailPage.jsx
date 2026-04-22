@@ -5,7 +5,7 @@ import { AppContext } from '../context/AppContext.jsx';
 
 export default function BookDetailPage() {
     const { id } = useParams();
-    const { user, API_BASE, showToast, cart, fetchCart } = useContext(AppContext);
+    const { user, API_BASE, showToast, cart, fetchCart, trackEvent } = useContext(AppContext);
     const navigate = useNavigate();
     
     const [book, setBook] = useState(null);
@@ -37,6 +37,7 @@ export default function BookDetailPage() {
 
             // Track this page view
             trackView(parseInt(id));
+            trackEvent('view', parseInt(id));
 
             // Category-based recommendations (books in same category, excluding this one)
             let recData = [];
@@ -87,6 +88,7 @@ export default function BookDetailPage() {
             }
             fetchCart(user.id);
             showToast("Added to cart 🛒");
+            trackEvent('add_to_cart', book.id);
         } catch {
             showToast("Failed to add to cart", "error");
         }
@@ -109,6 +111,7 @@ export default function BookDetailPage() {
             });
             showToast("Review submitted ⭐");
             setNewComment('');
+            trackEvent('review', book.id);
             loadData();
         } catch {
             showToast("Failed to submit review", "error");

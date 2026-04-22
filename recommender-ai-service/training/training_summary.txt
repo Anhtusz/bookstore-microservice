@@ -1,0 +1,22 @@
+Training Summary
+Dataset: E:\QuePrj\bookstore-microservice\recommender-ai-service\data\data_user500.csv
+Train samples: 19160
+Test samples: 4790
+Window size: 5
+Epochs: 20
+Batch size: 32
+Device: cpu
+
+Best model: BiLSTM
+Best accuracy: 0.6998
+Best weighted F1: 0.6538
+Model file: E:\QuePrj\bookstore-microservice\recommender-ai-service\models\model_best.pt
+Plot file: E:\QuePrj\bookstore-microservice\recommender-ai-service\training\training_metrics.png
+
+Per-model results:
+- RNN: acc=0.6977, f1=0.6466
+  last_loss=0.7439, epochs=20
+- LSTM: acc=0.6981, f1=0.6473
+  last_loss=0.7405, epochs=20
+- BiLSTM: acc=0.6998, f1=0.6538
+  last_loss=0.7404, epochs=20

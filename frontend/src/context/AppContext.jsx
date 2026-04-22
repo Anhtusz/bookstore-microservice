@@ -67,12 +67,23 @@ export const AppProvider = ({ children }) => {
         }
     }, [user]);
 
+    // Fire-and-forget behavior tracking — never blocks UI
+    const trackEvent = (action, productId) => {
+        if (!user) return;
+        axios.post(`${API_BASE}/recommender-ai/track/`, {
+            user_id: user.id,
+            product_id: productId,
+            action: action,
+        }).catch(() => {}); // Silent fail — tracking should never break UX
+    };
+
     return (
         <AppContext.Provider value={{
             user, setUser, logout,
             cart, setCart, fetchCart,
             categories, fetchCategories,
             toast, showToast,
+            trackEvent,
             API_BASE
         }}>
             {children}

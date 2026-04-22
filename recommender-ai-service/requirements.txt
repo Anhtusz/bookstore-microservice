@@ -13,3 +13,6 @@ google-generativeai
 numpy
 pandas
 scikit-learn
+matplotlib
+seaborn
+neo4j

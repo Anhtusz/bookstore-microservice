@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "description": "To Kill a Mockingbird by Harper Lee is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.54,
+        "stock": 19,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 2,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "description": "Pride and Prejudice by Jane Austen is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.09,
+        "stock": 26,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "description": "1984 by George Orwell is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.64,
+        "stock": 33,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 4,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "description": "The Great Gatsby by F. Scott Fitzgerald is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.19,
+        "stock": 40,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 5,
+        "title": "Jane Eyre",
+        "author": "Charlotte Bronte",
+        "description": "Jane Eyre by Charlotte Bronte is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.74,
+        "stock": 47,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 6,
+        "title": "Wuthering Heights",
+        "author": "Emily Bronte",
+        "description": "Wuthering Heights by Emily Bronte is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.29,
+        "stock": 54,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 7,
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "description": "Little Women by Louisa May Alcott is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.84,
+        "stock": 61,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 8,
+        "title": "Beloved",
+        "author": "Toni Morrison",
+        "description": "Beloved by Toni Morrison is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.39,
+        "stock": 68,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 9,
+        "title": "The Catcher in the Rye",
+        "author": "J. D. Salinger",
+        "description": "The Catcher in the Rye by J. D. Salinger is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.94,
+        "stock": 75,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 10,
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "description": "The Kite Runner by Khaled Hosseini is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.49,
+        "stock": 82,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 11,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "The Alchemist by Paulo Coelho is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.04,
+        "stock": 89,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 12,
+        "title": "Norwegian Wood",
+        "author": "Haruki Murakami",
+        "description": "Norwegian Wood by Haruki Murakami is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.59,
+        "stock": 96,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 13,
+        "title": "Atonement",
+        "author": "Ian McEwan",
+        "description": "Atonement by Ian McEwan is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.14,
+        "stock": 14,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 14,
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "description": "The Road by Cormac McCarthy is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.69,
+        "stock": 21,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 15,
+        "title": "White Teeth",
+        "author": "Zadie Smith",
+        "description": "White Teeth by Zadie Smith is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.24,
+        "stock": 28,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 16,
+        "title": "Never Let Me Go",
+        "author": "Kazuo Ishiguro",
+        "description": "Never Let Me Go by Kazuo Ishiguro is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.79,
+        "stock": 35,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 17,
+        "title": "The Goldfinch",
+        "author": "Donna Tartt",
+        "description": "The Goldfinch by Donna Tartt is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.39,
+        "stock": 42,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 18,
+        "title": "Middlesex",
+        "author": "Jeffrey Eugenides",
+        "description": "Middlesex by Jeffrey Eugenides is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.94,
+        "stock": 49,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 19,
+        "title": "The Secret History",
+        "author": "Donna Tartt",
+        "description": "The Secret History by Donna Tartt is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.49,
+        "stock": 56,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 20,
+        "title": "The Color Purple",
+        "author": "Alice Walker",
+        "description": "The Color Purple by Alice Walker is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.04,
+        "stock": 63,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 21,
+        "title": "A Man Called Ove",
+        "author": "Fredrik Backman",
+        "description": "A Man Called Ove by Fredrik Backman is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.59,
+        "stock": 70,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 22,
+        "title": "Pachinko",
+        "author": "Min Jin Lee",
+        "description": "Pachinko by Min Jin Lee is a real novel title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.14,
+        "stock": 77,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Novel"
+    },
+    {
+        "id": 23,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "description": "Dune by Frank Herbert is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.69,
+        "stock": 84,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 24,
+        "title": "Foundation",
+        "author": "Isaac Asimov",
+        "description": "Foundation by Isaac Asimov is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.24,
+        "stock": 91,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 25,
+        "title": "Neuromancer",
+        "author": "William Gibson",
+        "description": "Neuromancer by William Gibson is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.79,
+        "stock": 98,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 26,
+        "title": "Snow Crash",
+        "author": "Neal Stephenson",
+        "description": "Snow Crash by Neal Stephenson is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.34,
+        "stock": 16,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 27,
+        "title": "Ender's Game",
+        "author": "Orson Scott Card",
+        "description": "Ender's Game by Orson Scott Card is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.89,
+        "stock": 23,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 28,
+        "title": "The Left Hand of Darkness",
+        "author": "Ursula K. Le Guin",
+        "description": "The Left Hand of Darkness by Ursula K. Le Guin is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.44,
+        "stock": 30,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 29,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "description": "Fahrenheit 451 by Ray Bradbury is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.99,
+        "stock": 37,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 30,
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "description": "The Martian by Andy Weir is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.54,
+        "stock": 44,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 31,
+        "title": "Ready Player One",
+        "author": "Ernest Cline",
+        "description": "Ready Player One by Ernest Cline is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.09,
+        "stock": 51,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 32,
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "description": "Project Hail Mary by Andy Weir is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.64,
+        "stock": 58,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 33,
+        "title": "Hyperion",
+        "author": "Dan Simmons",
+        "description": "Hyperion by Dan Simmons is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 30.19,
+        "stock": 65,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 34,
+        "title": "Do Androids Dream of Electric Sheep?",
+        "author": "Philip K. Dick",
+        "description": "Do Androids Dream of Electric Sheep? by Philip K. Dick is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.79,
+        "stock": 72,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 35,
+        "title": "The Three-Body Problem",
+        "author": "Liu Cixin",
+        "description": "The Three-Body Problem by Liu Cixin is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.34,
+        "stock": 79,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 36,
+        "title": "Children of Time",
+        "author": "Adrian Tchaikovsky",
+        "description": "Children of Time by Adrian Tchaikovsky is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 10.89,
+        "stock": 86,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 37,
+        "title": "The Time Machine",
+        "author": "H. G. Wells",
+        "description": "The Time Machine by H. G. Wells is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.44,
+        "stock": 93,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 38,
+        "title": "I, Robot",
+        "author": "Isaac Asimov",
+        "description": "I, Robot by Isaac Asimov is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.99,
+        "stock": 100,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 39,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "description": "Brave New World by Aldous Huxley is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.54,
+        "stock": 18,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 40,
+        "title": "The War of the Worlds",
+        "author": "H. G. Wells",
+        "description": "The War of the Worlds by H. G. Wells is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.09,
+        "stock": 25,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 41,
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "description": "The Hitchhiker's Guide to the Galaxy by Douglas Adams is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.64,
+        "stock": 32,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 42,
+        "title": "Solaris",
+        "author": "Stanislaw Lem",
+        "description": "Solaris by Stanislaw Lem is a real science fiction title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.19,
+        "stock": 39,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Science Fiction"
+    },
+    {
+        "id": 43,
+        "title": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "description": "The Hobbit by J. R. R. Tolkien is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.74,
+        "stock": 46,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 44,
+        "title": "The Fellowship of the Ring",
+        "author": "J. R. R. Tolkien",
+        "description": "The Fellowship of the Ring by J. R. R. Tolkien is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 22.29,
+        "stock": 53,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 45,
+        "title": "The Two Towers",
+        "author": "J. R. R. Tolkien",
+        "description": "The Two Towers by J. R. R. Tolkien is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 22.84,
+        "stock": 60,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 46,
+        "title": "The Return of the King",
+        "author": "J. R. R. Tolkien",
+        "description": "The Return of the King by J. R. R. Tolkien is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.39,
+        "stock": 67,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 47,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Sorcerer's Stone by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.94,
+        "stock": 74,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 48,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Chamber of Secrets by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.49,
+        "stock": 81,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 49,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Prisoner of Azkaban by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.04,
+        "stock": 88,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 50,
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Goblet of Fire by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.59,
+        "stock": 95,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 51,
+        "title": "Harry Potter and the Order of the Phoenix",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Order of the Phoenix by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.19,
+        "stock": 13,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 52,
+        "title": "Harry Potter and the Half-Blood Prince",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Half-Blood Prince by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.74,
+        "stock": 20,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 53,
+        "title": "Harry Potter and the Deathly Hallows",
+        "author": "J. K. Rowling",
+        "description": "Harry Potter and the Deathly Hallows by J. K. Rowling is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.29,
+        "stock": 27,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 54,
+        "title": "A Game of Thrones",
+        "author": "George R. R. Martin",
+        "description": "A Game of Thrones by George R. R. Martin is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.84,
+        "stock": 34,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 55,
+        "title": "A Clash of Kings",
+        "author": "George R. R. Martin",
+        "description": "A Clash of Kings by George R. R. Martin is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.39,
+        "stock": 41,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 56,
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "description": "The Name of the Wind by Patrick Rothfuss is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.94,
+        "stock": 48,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 57,
+        "title": "The Wise Man's Fear",
+        "author": "Patrick Rothfuss",
+        "description": "The Wise Man's Fear by Patrick Rothfuss is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.49,
+        "stock": 55,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 58,
+        "title": "Mistborn: The Final Empire",
+        "author": "Brandon Sanderson",
+        "description": "Mistborn: The Final Empire by Brandon Sanderson is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.04,
+        "stock": 62,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 59,
+        "title": "The Way of Kings",
+        "author": "Brandon Sanderson",
+        "description": "The Way of Kings by Brandon Sanderson is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.59,
+        "stock": 69,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 60,
+        "title": "The Lies of Locke Lamora",
+        "author": "Scott Lynch",
+        "description": "The Lies of Locke Lamora by Scott Lynch is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.14,
+        "stock": 76,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 61,
+        "title": "American Gods",
+        "author": "Neil Gaiman",
+        "description": "American Gods by Neil Gaiman is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.69,
+        "stock": 83,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 62,
+        "title": "Jonathan Strange & Mr Norrell",
+        "author": "Susanna Clarke",
+        "description": "Jonathan Strange & Mr Norrell by Susanna Clarke is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.24,
+        "stock": 90,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 63,
+        "title": "The Last Unicorn",
+        "author": "Peter S. Beagle",
+        "description": "The Last Unicorn by Peter S. Beagle is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.79,
+        "stock": 97,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 64,
+        "title": "A Wizard of Earthsea",
+        "author": "Ursula K. Le Guin",
+        "description": "A Wizard of Earthsea by Ursula K. Le Guin is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.34,
+        "stock": 15,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 65,
+        "title": "The Blade Itself",
+        "author": "Joe Abercrombie",
+        "description": "The Blade Itself by Joe Abercrombie is a real fantasy title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.89,
+        "stock": 22,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Fantasy"
+    },
+    {
+        "id": 66,
+        "title": "Murder on the Orient Express",
+        "author": "Agatha Christie",
+        "description": "Murder on the Orient Express by Agatha Christie is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.44,
+        "stock": 29,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 67,
+        "title": "The Hound of the Baskervilles",
+        "author": "Arthur Conan Doyle",
+        "description": "The Hound of the Baskervilles by Arthur Conan Doyle is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.99,
+        "stock": 36,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 68,
+        "title": "And Then There Were None",
+        "author": "Agatha Christie",
+        "description": "And Then There Were None by Agatha Christie is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.59,
+        "stock": 43,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 69,
+        "title": "Gone Girl",
+        "author": "Gillian Flynn",
+        "description": "Gone Girl by Gillian Flynn is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 10.14,
+        "stock": 50,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 70,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "description": "The Girl with the Dragon Tattoo by Stieg Larsson is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 10.69,
+        "stock": 57,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 71,
+        "title": "The Big Sleep",
+        "author": "Raymond Chandler",
+        "description": "The Big Sleep by Raymond Chandler is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.24,
+        "stock": 64,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 72,
+        "title": "The Maltese Falcon",
+        "author": "Dashiell Hammett",
+        "description": "The Maltese Falcon by Dashiell Hammett is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.79,
+        "stock": 71,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 73,
+        "title": "In the Woods",
+        "author": "Tana French",
+        "description": "In the Woods by Tana French is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.34,
+        "stock": 78,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 74,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "description": "The Da Vinci Code by Dan Brown is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.89,
+        "stock": 85,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 75,
+        "title": "Still Life",
+        "author": "Louise Penny",
+        "description": "Still Life by Louise Penny is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.44,
+        "stock": 92,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 76,
+        "title": "The Thursday Murder Club",
+        "author": "Richard Osman",
+        "description": "The Thursday Murder Club by Richard Osman is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.99,
+        "stock": 99,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 77,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "description": "The Silent Patient by Alex Michaelides is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.54,
+        "stock": 17,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 78,
+        "title": "Sharp Objects",
+        "author": "Gillian Flynn",
+        "description": "Sharp Objects by Gillian Flynn is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 22.09,
+        "stock": 24,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 79,
+        "title": "Tinker Tailor Soldier Spy",
+        "author": "John le Carre",
+        "description": "Tinker Tailor Soldier Spy by John le Carre is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.64,
+        "stock": 31,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 80,
+        "title": "The Cuckoo's Calling",
+        "author": "Robert Galbraith",
+        "description": "The Cuckoo's Calling by Robert Galbraith is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.19,
+        "stock": 38,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 81,
+        "title": "The Woman in White",
+        "author": "Wilkie Collins",
+        "description": "The Woman in White by Wilkie Collins is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.74,
+        "stock": 45,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 82,
+        "title": "The Moonstone",
+        "author": "Wilkie Collins",
+        "description": "The Moonstone by Wilkie Collins is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.29,
+        "stock": 52,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 83,
+        "title": "The Name of the Rose",
+        "author": "Umberto Eco",
+        "description": "The Name of the Rose by Umberto Eco is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.84,
+        "stock": 59,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 84,
+        "title": "The ABC Murders",
+        "author": "Agatha Christie",
+        "description": "The ABC Murders by Agatha Christie is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 30.39,
+        "stock": 66,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 85,
+        "title": "Crooked House",
+        "author": "Agatha Christie",
+        "description": "Crooked House by Agatha Christie is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 7.99,
+        "stock": 73,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 86,
+        "title": "Rebecca",
+        "author": "Daphne du Maurier",
+        "description": "Rebecca by Daphne du Maurier is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.54,
+        "stock": 80,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 87,
+        "title": "The Postman Always Rings Twice",
+        "author": "James M. Cain",
+        "description": "The Postman Always Rings Twice by James M. Cain is a real detective title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.09,
+        "stock": 87,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Detective"
+    },
+    {
+        "id": 88,
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "description": "The Diary of a Young Girl by Anne Frank is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.64,
+        "stock": 94,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 89,
+        "title": "Long Walk to Freedom",
+        "author": "Nelson Mandela",
+        "description": "Long Walk to Freedom by Nelson Mandela is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.19,
+        "stock": 12,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 90,
+        "title": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "description": "Steve Jobs by Walter Isaacson is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.74,
+        "stock": 19,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 91,
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "description": "Becoming by Michelle Obama is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.29,
+        "stock": 26,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 92,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "description": "Educated by Tara Westover is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.84,
+        "stock": 33,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 93,
+        "title": "The Autobiography of Malcolm X",
+        "author": "Malcolm X and Alex Haley",
+        "description": "The Autobiography of Malcolm X by Malcolm X and Alex Haley is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.39,
+        "stock": 40,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 94,
+        "title": "Einstein: His Life and Universe",
+        "author": "Walter Isaacson",
+        "description": "Einstein: His Life and Universe by Walter Isaacson is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.94,
+        "stock": 47,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 95,
+        "title": "Alexander Hamilton",
+        "author": "Ron Chernow",
+        "description": "Alexander Hamilton by Ron Chernow is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.49,
+        "stock": 54,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 96,
+        "title": "Open",
+        "author": "Andre Agassi",
+        "description": "Open by Andre Agassi is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.04,
+        "stock": 61,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 97,
+        "title": "When Breath Becomes Air",
+        "author": "Paul Kalanithi",
+        "description": "When Breath Becomes Air by Paul Kalanithi is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.59,
+        "stock": 68,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 98,
+        "title": "I Know Why the Caged Bird Sings",
+        "author": "Maya Angelou",
+        "description": "I Know Why the Caged Bird Sings by Maya Angelou is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.14,
+        "stock": 75,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 99,
+        "title": "Shoe Dog",
+        "author": "Phil Knight",
+        "description": "Shoe Dog by Phil Knight is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.69,
+        "stock": 82,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 100,
+        "title": "Born a Crime",
+        "author": "Trevor Noah",
+        "description": "Born a Crime by Trevor Noah is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.24,
+        "stock": 89,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 101,
+        "title": "Just as I Am",
+        "author": "Cicely Tyson",
+        "description": "Just as I Am by Cicely Tyson is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.79,
+        "stock": 96,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 102,
+        "title": "Bossypants",
+        "author": "Tina Fey",
+        "description": "Bossypants by Tina Fey is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.39,
+        "stock": 14,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 103,
+        "title": "Unbroken",
+        "author": "Laura Hillenbrand",
+        "description": "Unbroken by Laura Hillenbrand is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.94,
+        "stock": 21,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 104,
+        "title": "The Immortal Life of Henrietta Lacks",
+        "author": "Rebecca Skloot",
+        "description": "The Immortal Life of Henrietta Lacks by Rebecca Skloot is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.49,
+        "stock": 28,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 105,
+        "title": "Churchill: Walking with Destiny",
+        "author": "Andrew Roberts",
+        "description": "Churchill: Walking with Destiny by Andrew Roberts is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.04,
+        "stock": 35,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 106,
+        "title": "Titan",
+        "author": "Ron Chernow",
+        "description": "Titan by Ron Chernow is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.59,
+        "stock": 42,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 107,
+        "title": "The Wright Brothers",
+        "author": "David McCullough",
+        "description": "The Wright Brothers by David McCullough is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.14,
+        "stock": 49,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 108,
+        "title": "Catherine the Great",
+        "author": "Robert K. Massie",
+        "description": "Catherine the Great by Robert K. Massie is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.69,
+        "stock": 56,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 109,
+        "title": "Wild",
+        "author": "Cheryl Strayed",
+        "description": "Wild by Cheryl Strayed is a real biography title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.24,
+        "stock": 63,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Biography"
+    },
+    {
+        "id": 110,
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "description": "Atomic Habits by James Clear is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.79,
+        "stock": 70,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 111,
+        "title": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "description": "The 7 Habits of Highly Effective People by Stephen R. Covey is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.34,
+        "stock": 77,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 112,
+        "title": "How to Win Friends and Influence People",
+        "author": "Dale Carnegie",
+        "description": "How to Win Friends and Influence People by Dale Carnegie is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.89,
+        "stock": 84,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 113,
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "description": "Deep Work by Cal Newport is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.44,
+        "stock": 91,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 114,
+        "title": "Mindset",
+        "author": "Carol S. Dweck",
+        "description": "Mindset by Carol S. Dweck is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.99,
+        "stock": 98,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 115,
+        "title": "Grit",
+        "author": "Angela Duckworth",
+        "description": "Grit by Angela Duckworth is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.54,
+        "stock": 16,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 116,
+        "title": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "description": "The Power of Habit by Charles Duhigg is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.09,
+        "stock": 23,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 117,
+        "title": "Thinking in Bets",
+        "author": "Annie Duke",
+        "description": "Thinking in Bets by Annie Duke is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.64,
+        "stock": 30,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 118,
+        "title": "Essentialism",
+        "author": "Greg McKeown",
+        "description": "Essentialism by Greg McKeown is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 30.19,
+        "stock": 37,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 119,
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "description": "The Subtle Art of Not Giving a F*ck by Mark Manson is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.79,
+        "stock": 44,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 120,
+        "title": "Tiny Habits",
+        "author": "BJ Fogg",
+        "description": "Tiny Habits by BJ Fogg is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.34,
+        "stock": 51,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 121,
+        "title": "Ikigai",
+        "author": "Hector Garcia and Francesc Miralles",
+        "description": "Ikigai by Hector Garcia and Francesc Miralles is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 10.89,
+        "stock": 58,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 122,
+        "title": "Start with Why",
+        "author": "Simon Sinek",
+        "description": "Start with Why by Simon Sinek is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.44,
+        "stock": 65,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 123,
+        "title": "Can't Hurt Me",
+        "author": "David Goggins",
+        "description": "Can't Hurt Me by David Goggins is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.99,
+        "stock": 72,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 124,
+        "title": "Make Your Bed",
+        "author": "William H. McRaven",
+        "description": "Make Your Bed by William H. McRaven is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.54,
+        "stock": 79,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 125,
+        "title": "The Four Agreements",
+        "author": "Don Miguel Ruiz",
+        "description": "The Four Agreements by Don Miguel Ruiz is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.09,
+        "stock": 86,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 126,
+        "title": "Daring Greatly",
+        "author": "Brene Brown",
+        "description": "Daring Greatly by Brene Brown is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.64,
+        "stock": 93,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 127,
+        "title": "The Gifts of Imperfection",
+        "author": "Brene Brown",
+        "description": "The Gifts of Imperfection by Brene Brown is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.19,
+        "stock": 100,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 128,
+        "title": "Awaken the Giant Within",
+        "author": "Tony Robbins",
+        "description": "Awaken the Giant Within by Tony Robbins is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.74,
+        "stock": 18,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 129,
+        "title": "Feel the Fear and Do It Anyway",
+        "author": "Susan Jeffers",
+        "description": "Feel the Fear and Do It Anyway by Susan Jeffers is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 22.29,
+        "stock": 25,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 130,
+        "title": "The One Thing",
+        "author": "Gary Keller and Jay Papasan",
+        "description": "The One Thing by Gary Keller and Jay Papasan is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 22.84,
+        "stock": 32,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 131,
+        "title": "You Are a Badass",
+        "author": "Jen Sincero",
+        "description": "You Are a Badass by Jen Sincero is a real self-help title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.39,
+        "stock": 39,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Self-Help"
+    },
+    {
+        "id": 132,
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "description": "Sapiens by Yuval Noah Harari is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.94,
+        "stock": 46,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 133,
+        "title": "Guns, Germs, and Steel",
+        "author": "Jared Diamond",
+        "description": "Guns, Germs, and Steel by Jared Diamond is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.49,
+        "stock": 53,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 134,
+        "title": "The Silk Roads",
+        "author": "Peter Frankopan",
+        "description": "The Silk Roads by Peter Frankopan is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.04,
+        "stock": 60,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 135,
+        "title": "Team of Rivals",
+        "author": "Doris Kearns Goodwin",
+        "description": "Team of Rivals by Doris Kearns Goodwin is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.59,
+        "stock": 67,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 136,
+        "title": "The Lessons of History",
+        "author": "Will Durant and Ariel Durant",
+        "description": "The Lessons of History by Will Durant and Ariel Durant is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.19,
+        "stock": 74,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 137,
+        "title": "SPQR",
+        "author": "Mary Beard",
+        "description": "SPQR by Mary Beard is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.74,
+        "stock": 81,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 138,
+        "title": "The Rise and Fall of the Third Reich",
+        "author": "William L. Shirer",
+        "description": "The Rise and Fall of the Third Reich by William L. Shirer is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.29,
+        "stock": 88,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 139,
+        "title": "The Crusades",
+        "author": "Thomas Asbridge",
+        "description": "The Crusades by Thomas Asbridge is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.84,
+        "stock": 95,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 140,
+        "title": "Postwar",
+        "author": "Tony Judt",
+        "description": "Postwar by Tony Judt is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.39,
+        "stock": 13,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 141,
+        "title": "The Splendid and the Vile",
+        "author": "Erik Larson",
+        "description": "The Splendid and the Vile by Erik Larson is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.94,
+        "stock": 20,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 142,
+        "title": "The Warmth of Other Suns",
+        "author": "Isabel Wilkerson",
+        "description": "The Warmth of Other Suns by Isabel Wilkerson is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.49,
+        "stock": 27,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 143,
+        "title": "1776",
+        "author": "David McCullough",
+        "description": "1776 by David McCullough is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.04,
+        "stock": 34,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 144,
+        "title": "Destiny of the Republic",
+        "author": "Candice Millard",
+        "description": "Destiny of the Republic by Candice Millard is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.59,
+        "stock": 41,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 145,
+        "title": "The Liberation Trilogy",
+        "author": "Rick Atkinson",
+        "description": "The Liberation Trilogy by Rick Atkinson is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.14,
+        "stock": 48,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 146,
+        "title": "A People's History of the United States",
+        "author": "Howard Zinn",
+        "description": "A People's History of the United States by Howard Zinn is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.69,
+        "stock": 55,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 147,
+        "title": "The Pity of War",
+        "author": "Niall Ferguson",
+        "description": "The Pity of War by Niall Ferguson is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.24,
+        "stock": 62,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 148,
+        "title": "The Wright Brothers",
+        "author": "David McCullough",
+        "description": "The Wright Brothers by David McCullough is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.79,
+        "stock": 69,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 149,
+        "title": "Paris 1919",
+        "author": "Margaret MacMillan",
+        "description": "Paris 1919 by Margaret MacMillan is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.34,
+        "stock": 76,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 150,
+        "title": "The Romanovs",
+        "author": "Simon Sebag Montefiore",
+        "description": "The Romanovs by Simon Sebag Montefiore is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.89,
+        "stock": 83,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 151,
+        "title": "The Black Count",
+        "author": "Tom Reiss",
+        "description": "The Black Count by Tom Reiss is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.44,
+        "stock": 90,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 152,
+        "title": "King Leopold's Ghost",
+        "author": "Adam Hochschild",
+        "description": "King Leopold's Ghost by Adam Hochschild is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.99,
+        "stock": 97,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 153,
+        "title": "Bloodlands",
+        "author": "Timothy Snyder",
+        "description": "Bloodlands by Timothy Snyder is a real history title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.59,
+        "stock": 15,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "History"
+    },
+    {
+        "id": 154,
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "description": "Thinking, Fast and Slow by Daniel Kahneman is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 10.14,
+        "stock": 22,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 155,
+        "title": "Influence",
+        "author": "Robert B. Cialdini",
+        "description": "Influence by Robert B. Cialdini is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 10.69,
+        "stock": 29,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 156,
+        "title": "Predictably Irrational",
+        "author": "Dan Ariely",
+        "description": "Predictably Irrational by Dan Ariely is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.24,
+        "stock": 36,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 157,
+        "title": "Emotional Intelligence",
+        "author": "Daniel Goleman",
+        "description": "Emotional Intelligence by Daniel Goleman is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.79,
+        "stock": 43,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 158,
+        "title": "Man's Search for Meaning",
+        "author": "Viktor E. Frankl",
+        "description": "Man's Search for Meaning by Viktor E. Frankl is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.34,
+        "stock": 50,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 159,
+        "title": "The Body Keeps the Score",
+        "author": "Bessel van der Kolk",
+        "description": "The Body Keeps the Score by Bessel van der Kolk is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.89,
+        "stock": 57,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 160,
+        "title": "Stumbling on Happiness",
+        "author": "Daniel Gilbert",
+        "description": "Stumbling on Happiness by Daniel Gilbert is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.44,
+        "stock": 64,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 161,
+        "title": "Behave",
+        "author": "Robert M. Sapolsky",
+        "description": "Behave by Robert M. Sapolsky is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.99,
+        "stock": 71,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 162,
+        "title": "Flow",
+        "author": "Mihaly Csikszentmihalyi",
+        "description": "Flow by Mihaly Csikszentmihalyi is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.54,
+        "stock": 78,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 163,
+        "title": "Quiet",
+        "author": "Susan Cain",
+        "description": "Quiet by Susan Cain is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 22.09,
+        "stock": 85,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 164,
+        "title": "The Righteous Mind",
+        "author": "Jonathan Haidt",
+        "description": "The Righteous Mind by Jonathan Haidt is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.64,
+        "stock": 92,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 165,
+        "title": "The Man Who Mistook His Wife for a Hat",
+        "author": "Oliver Sacks",
+        "description": "The Man Who Mistook His Wife for a Hat by Oliver Sacks is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.19,
+        "stock": 99,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 166,
+        "title": "Mistakes Were Made (But Not by Me)",
+        "author": "Carol Tavris and Elliot Aronson",
+        "description": "Mistakes Were Made (But Not by Me) by Carol Tavris and Elliot Aronson is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.74,
+        "stock": 17,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 167,
+        "title": "Attached",
+        "author": "Amir Levine and Rachel Heller",
+        "description": "Attached by Amir Levine and Rachel Heller is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.29,
+        "stock": 24,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 168,
+        "title": "Games People Play",
+        "author": "Eric Berne",
+        "description": "Games People Play by Eric Berne is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.84,
+        "stock": 31,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 169,
+        "title": "Blink",
+        "author": "Malcolm Gladwell",
+        "description": "Blink by Malcolm Gladwell is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 30.39,
+        "stock": 38,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 170,
+        "title": "Outliers",
+        "author": "Malcolm Gladwell",
+        "description": "Outliers by Malcolm Gladwell is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 7.99,
+        "stock": 45,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 171,
+        "title": "Drive",
+        "author": "Daniel H. Pink",
+        "description": "Drive by Daniel H. Pink is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.54,
+        "stock": 52,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 172,
+        "title": "Originals",
+        "author": "Adam Grant",
+        "description": "Originals by Adam Grant is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.09,
+        "stock": 59,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 173,
+        "title": "Thinking in Systems",
+        "author": "Donella H. Meadows",
+        "description": "Thinking in Systems by Donella H. Meadows is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.64,
+        "stock": 66,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 174,
+        "title": "The Social Animal",
+        "author": "David Brooks",
+        "description": "The Social Animal by David Brooks is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.19,
+        "stock": 73,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 175,
+        "title": "Reaching Down the Rabbit Hole",
+        "author": "Allan H. Ropper and Brian David Burrell",
+        "description": "Reaching Down the Rabbit Hole by Allan H. Ropper and Brian David Burrell is a real psychology title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 14.74,
+        "stock": 80,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Psychology"
+    },
+    {
+        "id": 176,
+        "title": "Treasure Island",
+        "author": "Robert Louis Stevenson",
+        "description": "Treasure Island by Robert Louis Stevenson is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.29,
+        "stock": 87,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 177,
+        "title": "Around the World in Eighty Days",
+        "author": "Jules Verne",
+        "description": "Around the World in Eighty Days by Jules Verne is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 17.84,
+        "stock": 94,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 178,
+        "title": "The Call of the Wild",
+        "author": "Jack London",
+        "description": "The Call of the Wild by Jack London is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 19.39,
+        "stock": 12,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 179,
+        "title": "Life of Pi",
+        "author": "Yann Martel",
+        "description": "Life of Pi by Yann Martel is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.94,
+        "stock": 19,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 180,
+        "title": "The Lost World",
+        "author": "Arthur Conan Doyle",
+        "description": "The Lost World by Arthur Conan Doyle is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.49,
+        "stock": 26,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 181,
+        "title": "King Solomon's Mines",
+        "author": "H. Rider Haggard",
+        "description": "King Solomon's Mines by H. Rider Haggard is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.04,
+        "stock": 33,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 182,
+        "title": "Robinson Crusoe",
+        "author": "Daniel Defoe",
+        "description": "Robinson Crusoe by Daniel Defoe is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.59,
+        "stock": 40,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 183,
+        "title": "Journey to the Center of the Earth",
+        "author": "Jules Verne",
+        "description": "Journey to the Center of the Earth by Jules Verne is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 26.14,
+        "stock": 47,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 184,
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "description": "The Three Musketeers by Alexandre Dumas is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 27.69,
+        "stock": 54,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 185,
+        "title": "Into Thin Air",
+        "author": "Jon Krakauer",
+        "description": "Into Thin Air by Jon Krakauer is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 28.24,
+        "stock": 61,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 186,
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway",
+        "description": "The Old Man and the Sea by Ernest Hemingway is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 29.79,
+        "stock": 68,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 187,
+        "title": "Hatchet",
+        "author": "Gary Paulsen",
+        "description": "Hatchet by Gary Paulsen is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 8.39,
+        "stock": 75,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 188,
+        "title": "The Swiss Family Robinson",
+        "author": "Johann David Wyss",
+        "description": "The Swiss Family Robinson by Johann David Wyss is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 9.94,
+        "stock": 82,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 189,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "description": "The Odyssey by Homer is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 11.49,
+        "stock": 89,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 190,
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "description": "The Count of Monte Cristo by Alexandre Dumas is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 12.04,
+        "stock": 96,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 191,
+        "title": "Gulliver's Travels",
+        "author": "Jonathan Swift",
+        "description": "Gulliver's Travels by Jonathan Swift is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 13.59,
+        "stock": 14,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 192,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "description": "The Adventures of Huckleberry Finn by Mark Twain is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 15.14,
+        "stock": 21,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 193,
+        "title": "The Sea-Wolf",
+        "author": "Jack London",
+        "description": "The Sea-Wolf by Jack London is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 16.69,
+        "stock": 28,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 194,
+        "title": "The Lost City of Z",
+        "author": "David Grann",
+        "description": "The Lost City of Z by David Grann is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.24,
+        "stock": 35,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 195,
+        "title": "Touching the Void",
+        "author": "Joe Simpson",
+        "description": "Touching the Void by Joe Simpson is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 18.79,
+        "stock": 42,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 196,
+        "title": "Kon-Tiki",
+        "author": "Thor Heyerdahl",
+        "description": "Kon-Tiki by Thor Heyerdahl is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 20.34,
+        "stock": 49,
+        "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 197,
+        "title": "Endurance",
+        "author": "Alfred Lansing",
+        "description": "Endurance by Alfred Lansing is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 21.89,
+        "stock": 56,
+        "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 198,
+        "title": "The River of Doubt",
+        "author": "Candice Millard",
+        "description": "The River of Doubt by Candice Millard is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 23.44,
+        "stock": 63,
+        "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 199,
+        "title": "Seven Years in Tibet",
+        "author": "Heinrich Harrer",
+        "description": "Seven Years in Tibet by Heinrich Harrer is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 24.99,
+        "stock": 70,
+        "image_url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    },
+    {
+        "id": 200,
+        "title": "Skeletons on the Zahara",
+        "author": "Dean King",
+        "description": "Skeletons on the Zahara by Dean King is a real adventure title included in the seed dataset for recommender training and behavior simulation.",
+        "price": 25.54,
+        "stock": 77,
+        "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+        "category_name": "Adventure"
+    }
+]

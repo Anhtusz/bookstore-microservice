@@ -1,4 +1,5 @@
 import os
+import requests
 import chromadb
 from sentence_transformers import SentenceTransformer, CrossEncoder
 import google.generativeai as genai
@@ -24,16 +25,45 @@ class AdvancedRAG:
         self.corpus_docs = []
         self.bm25 = None
         
-        self.seed_dummy_knowledge()
+        self.ingest_books_knowledge()
         
-    def seed_dummy_knowledge(self):
-        """Seed with default data for demonstration purposes."""
+    def ingest_books_knowledge(self):
+        """Fetch books and categories to populate the knowledge base dynamically."""
         docs = [
-            "Cửa hàng chúng tôi miễn phí vẫn chuyển cho đơn hàng trên 50K.",
-            "Dune và Foundation là những cuốn sách Khoa học viễn tưởng hay nhất.",
-            "Chính sách đổi trả: Bạn có thể đổi sách trong vòng 30 ngày nếu còn nguyên vẹn.",
-            "Sách dạy lập trình bạn nên mua 'Clean Code' hoặc 'Automate the boring stuff with Python'."
+            "Cửa hàng chúng tôi miễn phí vận chuyển cho đơn hàng trên 50K.",
+            "Chính sách đổi trả: Bạn có thể đổi sách trong vòng 30 ngày nếu còn nguyên vẹn."
         ]
+        try:
+            # 1. Fetch Categories
+            cat_res = requests.get("http://catalog-service:8000/api/categories/", timeout=5)
+            categories = {c["id"]: c["name"] for c in cat_res.json()} if cat_res.status_code == 200 else {}
+            
+            # 2. Fetch Catalog Items for Category Mapping
+            item_res = requests.get("http://catalog-service:8000/api/items/", timeout=5)
+            items = item_res.json() if item_res.status_code == 200 else []
+            book_cat_map = {item["book_id"]: categories.get(item["category"], "Unknown") for item in items}
+            
+            # 3. Fetch Books
+            book_res = requests.get("http://book-service:8000/api/books/", timeout=5)
+            if book_res.status_code == 200:
+                books = book_res.json()
+                for b in books:
+                    title = b.get('title', 'Unknown')
+                    author = b.get('author', 'Unknown')
+                    desc = b.get('description', '')
+                    price = b.get('price', '0')
+                    stock = b.get('stock', 0)
+                    cat_name = book_cat_map.get(b.get('id'), "Không xác định")
+                    
+                    stock_status = f"còn hàng ({stock} quyển)" if stock > 0 else "đã hết hàng"
+                    
+                    doc = (f"Sách '{title}' của tác giả {author}. Thể loại: {cat_name}. "
+                           f"Giá: {price}$. Mổ tả: {desc}. Tình trạng: {stock_status}.")
+                    docs.append(doc)
+            print(f"Began ingesting {len(docs)} documents into Knowledge Base!")
+        except Exception as e:
+            print(f"Error fetching dynamic database elements using RAG: {e}")
+            
         self.add_documents(docs)
 
     def add_documents(self, documents):

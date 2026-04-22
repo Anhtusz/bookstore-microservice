@@ -4,7 +4,7 @@ import axios from 'axios';
 import { AppContext } from '../context/AppContext.jsx';
 
 export default function CheckoutPage() {
-    const { user, cart, API_BASE, showToast, fetchCart } = useContext(AppContext);
+    const { user, cart, API_BASE, showToast, fetchCart, trackEvent } = useContext(AppContext);
     const navigate = useNavigate();
     
     const [name, setName] = useState(user?.name || '');
@@ -35,6 +35,8 @@ export default function CheckoutPage() {
             } else {
                 showToast("Order placed successfully! Waiting for confirmation.", "success");
             }
+            // Track purchase event for each item in cart
+            cart.forEach(item => trackEvent('purchase', item.book_id));
             fetchCart(user.id);
             navigate('/');
         } catch (err) {

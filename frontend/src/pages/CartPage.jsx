@@ -4,7 +4,7 @@ import axios from 'axios';
 import { AppContext } from '../context/AppContext.jsx';
 
 export default function CartPage({ booksMap }) {
-    const { user, cart, fetchCart, API_BASE, showToast } = useContext(AppContext);
+    const { user, cart, fetchCart, API_BASE, showToast, trackEvent } = useContext(AppContext);
     const navigate = useNavigate();
 
     // Redirect to login if not authenticated
@@ -18,6 +18,7 @@ export default function CartPage({ booksMap }) {
     const updateQty = async (itemId, newQty, bookId, cartId) => {
         if (newQty <= 0) {
             await axios.delete(`${API_BASE}/cart/cart-items/${itemId}/`);
+            trackEvent('remove_cart', bookId);
         } else {
             await axios.put(`${API_BASE}/cart/cart-items/${itemId}/`, {
                 quantity: newQty, cart: cartId, book_id: bookId

@@ -5,7 +5,7 @@ import { AppContext } from '../context/AppContext.jsx';
 import Chatbot from '../components/Chatbot.jsx';
 
 export default function StorefrontPage({ fetchBooks }) {
-    const { user, fetchCart, API_BASE, showToast, cart, categories } = useContext(AppContext);
+    const { user, fetchCart, API_BASE, showToast, cart, categories, trackEvent } = useContext(AppContext);
     const navigate = useNavigate();
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -111,6 +111,7 @@ export default function StorefrontPage({ fetchBooks }) {
             }
             fetchCart(user.id);
             showToast("Added to cart 🛒");
+            trackEvent('add_to_cart', bookId);
         } catch {
             showToast("Failed to add to cart", "error");
         }
@@ -271,7 +272,7 @@ export default function StorefrontPage({ fetchBooks }) {
 
                                 <div className="px-4 pb-4 flex flex-col flex-1">
                                     <div className="mb-4">
-                                        <Link to={`/book/${b.id}`} className="text-xl font-bold leading-tight hover:text-blue-400 transition-colors mb-1 block">
+                                        <Link to={`/book/${b.id}`} onClick={() => trackEvent('click', b.id)} className="text-xl font-bold leading-tight hover:text-blue-400 transition-colors mb-1 block">
                                             {b.title}
                                         </Link>
                                         <p className="text-slate-400 text-sm font-medium">by {b.author}</p>
